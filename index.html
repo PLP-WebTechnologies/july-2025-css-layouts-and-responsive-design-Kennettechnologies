@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Studio - Responsive Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER SECTION (Flexbox Layout) -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">Creative Studio</a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (Flexbox Layout) -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <h1>Creative Design Solutions</h1>
+            <p>We transform ideas into stunning digital experiences that captivate your audience and drive results. Our expert team combines creativity with cutting-edge technology.</p>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN LAYOUT CONTAINER (CSS Grid Layout) -->
+    <div class="main-container">
+        
+        <!-- CONTENT SECTION -->
+        <section class="content" id="about">
+            <h2>About Our Studio</h2>
+            <p>With over a decade of experience in digital design and development, Creative Studio has been at the forefront of innovation. We specialize in creating memorable brand experiences that resonate with your target audience.</p>
+            <p>Our multidisciplinary team brings together expertise in user experience design, visual communications, and technical development to deliver comprehensive solutions that exceed expectations.</p>
+            <p>We believe that great design is not just about aesthetics—it's about solving problems, telling stories, and creating meaningful connections between brands and people.</p>
+        </section>
+
+        <!-- SERVICES SECTION (Flexbox Layout) -->
+        <section class="services" id="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Web Design</h3>
+                    <p>Responsive websites that look amazing on all devices and provide exceptional user experiences.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Brand Identity</h3>
+                    <p>Comprehensive branding solutions that help your business stand out in the marketplace.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Digital Marketing</h3>
+                    <p>Strategic campaigns that drive engagement, increase conversions, and grow your business.</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- SIDEBAR (Flexbox Layout) -->
+        <aside class="sidebar">
+            <div class="sidebar-widget">
+                <h3>Quick Stats</h3>
+                <ul>
+                    <li>125+ Projects Completed</li>
+                    <li>50+ Happy Clients</li>
+                    <li>10+ Years Experience</li>
+                    <li>24/7 Support Available</li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-widget">
+                <h3>Latest News</h3>
+                <p><strong>New Office Opening:</strong> We're excited to announce our new location in the downtown creative district.</p>
+                <p><strong>Award Winner:</strong> Our recent project won the Digital Excellence Award for innovation in web design.</p>
+            </div>
+            
+            <div class="sidebar-widget">
+                <h3>Contact Info</h3>
+                <p><strong>Email:</strong> hello@creativestudio.com</p>
+                <p><strong>Phone:</strong> (555) 123-4567</p>
+                <p><strong>Address:</strong> 123 Creative Lane, Design City</p>
+            </div>
+        </aside>
+
+        <!-- PORTFOLIO SECTION (CSS Grid Layout) -->
+        <section class="portfolio" id="portfolio">
+            <h2>Featured Portfolio</h2>
+            <div class="portfolio-grid">
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">Brand Identity</div>
+                    <div class="portfolio-content">
+                        <h3>Tech Startup Branding</h3>
+                        <p>Complete brand identity package including logo, color palette, and marketing materials.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">Web Application</div>
+                    <div class="portfolio-content">
+                        <h3>Project Management Tool</h3>
+                        <p>Cloud-based collaboration platform with advanced project tracking and team communication.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">Marketing Campaign</div>
+                    <div class="portfolio-content">
+                        <h3>Digital Marketing Suite</h3>
+                        <p>Multi-channel marketing campaign that increased brand awareness by 300%.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">Website Redesign</div>
+                    <div class="portfolio-content">
+                        <h3>Corporate Website</h3>
+                        <p>Complete redesign focusing on user experience and conversion optimization.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- FOOTER SECTION (CSS Grid & Flexbox Layout) -->
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Creative Studio</h3>
+                    <p>We're passionate about creating digital experiences that make a difference. Let's work together to bring your vision to life.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <a href="#">Web Design</a>
+                    <a href="#">Brand Identity</a>
+                    <a href="#">Digital Marketing</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Our Team</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>123 Creative Lane<br>Kisumu City, Kenya</p>
+                    <a href="mailto:hello@creativestudio.com">kennettechnologies@creativestudio.com</a>
+                    <a href="tel:5551234567">(+254) 07097369609</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Creative Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
